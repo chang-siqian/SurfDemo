@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CUDA Debug (F5)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/x64/Debug/SGMCuda.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/x64/Debug",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "MSVC CUDA: Build current file"
+        },
+        {
+            "name": "Standard Debug",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/x64/Debug/SurfDemo.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/x64/Debug",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "MSVC: Build current file"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.db
+*.ipch
+*.dbmdl
+*.dbproj.schemaview
+*.pdb
+*.pgc
+*.pgd
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.idb
+*.ilk
+*.log
+*.obj
+*.sbr
+*.tmp
+*.tmp_proj
+*.vsidx
+*.VC.db
+
+# Build outputs
+x64/
+Win32/
+Debug/
+Release/
+out/
+build/
+cmake-build-*/
+
+# OpenCV DLLs / libs (large binaries)
+*.dll
+*.lib
+*.exp
+
+# Executables
+*.exe
+*.exe.manifest
+
+# Images/Data (large datasets)
+data/KITTI/
+
+# JetBrains / VS Code
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Claude (local settings)
+.claude/settings.local.json
